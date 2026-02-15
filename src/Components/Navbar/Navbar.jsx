@@ -93,9 +93,9 @@ const Navbar = () => {
                   <Link to={item === "shop" ? "/" : `/${item}`}>
                     {item.charAt(0).toUpperCase() + item.slice(1)}
                   </Link>
-                  {menu === item && (
+                  {/* {menu === item && (
                     <span className="block mt-1 w-6 h-[2px] bg-amber-500 rounded"></span>
-                  )}
+                  )} */}
                 </li>
               ))}
             </ul>
