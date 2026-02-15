@@ -15,15 +15,15 @@ const Navbar = () => {
 
           {/* Logo */}
           <div className="flex items-center gap-2">
-            <img src={logo} alt="logo" className="w-8 sm:w-9" />
-            <p className="text-xl sm:text-2xl font-semibold tracking-tight">
+            <Link to="/"><img src={logo} alt="logo" className="cursor-pointer w-8 sm:w-9" /></Link>
+            <Link to="/"><p className="cursor-pointer text-xl sm:text-2xl font-semibold tracking-tight">
               <span className="text-zinc-900">SHOP</span>
               <span className="text-amber-500">PER</span>
-            </p>
+            </p></Link>
           </div>
 
           {/* Navigation */}
-          <ul className="hidden md:flex items-center gap-10 text-sm font-medium text-zinc-700">
+          <ul className="flex items-center gap-10 text-sm font-medium text-zinc-700">
             <li
               onClick={() => setMenu("shop")}
               className="relative cursor-pointer hover:text-amber-500 transition duration-300"
