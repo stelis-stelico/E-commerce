@@ -1,16 +1,79 @@
-# React + Vite
+# 🛍️ Shopper – Modern React E-Commerce Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Shopper is a fully responsive modern e-commerce frontend built with **React** and styled entirely using **Tailwind CSS**.  
+It demonstrates core e-commerce functionality including product browsing, category filtering, cart management, and dynamic UI interactions.
 
-Currently, two official plugins are available:
+This project focuses on clean architecture, reusable components, and responsive UI design.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Live Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 🏠 Home Page
+- Hero section
+- Popular products section
+- New collections section
+- Exclusive offers section
+- Newsletter subscription UI
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🛒 Product & Shop Pages
+- Category-based filtering (Men / Women / Kids)
+- Dynamic product rendering
+- Responsive product grid
+- Product detail page
+- Related products section
+
+### 📦 Product Detail Page
+- Product image
+- Name, pricing (new & old price)
+- Description tab
+- Add to cart functionality
+- Related products section
+
+### 🛍️ Cart System
+- Add to cart functionality
+- Remove from cart
+- Cart item quantity tracking
+- Dynamic total cart item count and cost
+- State managed via React Context API
+
+### 🔐 Authentication UI
+- Login / Signup page UI
+- Styled form components
+
+### 📱 Responsive Navigation
+- Sticky navbar
+- Mobile & tablet hamburger menu
+- Cart icon with live item counter
+
+---
+
+## 🧠 State Management
+
+The application uses:
+
+- **React Context API** for global cart state
+- `useState` for UI interactions (menu toggling)
+- Dynamic rendering using `.map()` for products
+
+---
+
+## 🎨 Styling
+
+The entire project is styled using:
+
+- **Tailwind CSS**
+- Modern e-commerce layout patterns
+- Clean spacing system
+- Consistent color theme
+
+---
+
+## 🛠️ Tech Stack
+
+- React (Functional Components)
+- React Router DOM
+- Tailwind CSS
+- Context API
+- JavaScript (ES6+)
